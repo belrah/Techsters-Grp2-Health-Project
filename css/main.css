@@ -1,0 +1,152 @@
+html, body{
+    height: 100%;
+}
+*{
+    margin: 0;
+}
+
+.topnav{
+    background-color: red;
+    overflow: hidden;
+    padding: 14px;
+}
+a,li{
+    list-style: none;
+    display: inline;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: capitalize;
+
+}
+.topnav a{
+    padding: 14px;
+}
+.topnav a:hover{
+    background-color: yellow;
+    color: #000000;
+}
+div.hero-image{
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/08/17/30/mushrooms-3069822__340.jpg); height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+div.hero-text{
+    text-align: center;
+    padding-top: 20%;
+    color: midnightblue;
+}
+
+.menu{
+    background-image: url(/img/photo-1498837167922-ddd27525d352.jpg); height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.menu2{
+    text-align: center;
+    padding-top: 20%;
+    color: navy;
+}
+
+span{
+    color: saddlebrown;
+}
+
+div.hero-text h1{
+    font-size: 3em;
+}
+
+button{
+    color: #f2f2f2;
+    background-color: red;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.description{
+    max-width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.description h2{
+    font-size: 2rem;
+    margin-top: 20px;
+    color: red;
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.description p i{
+    color: olive;
+    font-size: 2rem;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+
+.description p{
+    line-height: 1.5rem;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 30px;
+}
+
+.colume img{
+    width: 400px;
+    height: auto;
+}
+
+.method{
+    color: blue;
+    text-align: center;
+}
+
+
+p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.container img{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 2px;
+    transition: all 5s;
+    cursor: pointer;
+}
+
+
+.container img:hover{
+    transform: scale(1.1);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grow{
+    flex-grow: 1.5;
+}
+
+
+#foot a, li{
+    color: yellowgreen; 
+}
+#foot{
+    text-align: center;
+    color: yellowgreen;
+    background-color: red;
+}
