@@ -1,0 +1,76 @@
+html,  body{
+    height: 100;
+ 
+}
+.topnav{
+    background-color: palevioletred;
+    overflow: hidden;
+}
+h1{
+    color:red;
+    font-size: 2rem;
+}
+h2 {
+    color: palevioletred
+}
+.topnav,a, li{
+    list-style: none;
+    display:inline;
+    color: blue;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+.topnav a:hover{
+    background-color:whitesmoke;
+    color: #000000;
+}
+div.hero-image{
+    background-image: url(https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500 ) ;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+div.hero-txt{
+    text-align: center;
+    padding-top:20%;
+    color: red;
+}
+span{
+    color: goldenrod;
+}
+div.hero-txt h1{
+    font-size: 3em;
+}
+div.hero-txt a button{
+    color: #f2f2f2;
+    background: green;
+    padding: 10px 50px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    
+}
+.description{
+    max-width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.description h2{
+    font-size: 3rem;
+    padding-top: 20px;
+    color: seagreen;
+    text-transform: uppercase;
+}
+.description p i{
+    color: blue;
+    font-size: 1rem;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+@media screen and (max-width: 600px){
+    body{
+        background-color: red;
+    }
