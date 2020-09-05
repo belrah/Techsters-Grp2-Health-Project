@@ -1,0 +1,11 @@
+.grid-container{
+    background-color: red;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 4px;
+}
+.grid-container > div{
+    color: yellow;
+    border: 2px solid black;
+}
