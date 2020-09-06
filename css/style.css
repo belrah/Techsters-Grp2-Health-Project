@@ -1,3 +1,7 @@
+/* body{
+    font-size: 16px;
+} */
+
 .brand-name {
     font-family: 'Great Vibes', cursive;
     /* text-transform: uppercase; */
@@ -5,7 +9,7 @@
 }
 
 .nabar .active {
-    background-color: green;
+    background-color: #4285F4;
     color: #fff;
 }
 
@@ -58,11 +62,18 @@ div.masthead .overlay {
 
 /*-----------------------------------------carousel section here---------------------------------------------------*/
 
-.d-block {
-    height: 80vh;
+.d-block1 {
+    height: 60vh;
 }
 
 .carousel-caption>h2 {
     color: yellow;
     --animate-duration: 0.5s;
+}
+
+
+/*-----------------------------------------footer section here------------------------------------------------------*/
+
+.page-footer {
+    margin-top: 120px;
 }
