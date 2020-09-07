@@ -6,6 +6,14 @@ body{
     background-size: cover;
 }
 
+h2{
+  padding-left: 45%;
+  color: green;
+}
+
+h3, p{
+  color: green;
+}
 /* Style the input container */
 .input-container {
   display: flex;
@@ -65,7 +73,7 @@ body{
     animation: slide-left 50s;
   }
   
-  div.slide-left h5 {
+  div.slide-left h3 {
     animation: slide-left 50s;
   }
   
@@ -81,4 +89,41 @@ body{
     }
   }
   
-  
+  /*MEDIA SCREENS*/
+  @media screen and (max-width: 100px){
+    body{
+      background-image: url("./images/abstract-background-background-view-of-nature-bio-wallpaper-preview.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+    .input-field {
+      width: 100%;
+      padding: 10px;
+      outline: none;
+      border-color: green;
+    }
+
+    .input-container {
+      display: flex;
+      width: 77%;
+      margin-bottom: 15px;
+      padding-right: 5%;
+    }
+    
+
+    .btn {
+      background-color: white;
+      color:green;
+      padding: 15px 20px;
+      border-color: green;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+    }
+    
+    .btn:hover {
+      opacity: 1;
+    }
+      
+   }
