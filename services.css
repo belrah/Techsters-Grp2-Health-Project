@@ -1,14 +1,14 @@
+
 .service-rows{
     background-color: mediumseagreen;
     width: 100%;
     padding: 0px;
 }
-.text-container{
+.service-container{
     text-align: center;
     color: oldlace;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 100px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .para1{
@@ -28,4 +28,14 @@ input{
     padding: 15px 40px;
     border-radius: 5px;
     color: oldlace;
+}
+.h3{
+    text-align: center;
+    color: black;
+}
+@media (max-width: 767px){
+    .service-rows{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
