@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>BG-Energy Tech</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href=".png" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <!----main CSS-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- animate.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+
+<body id="page-top">
+    <!--------------------- Navigation bar section ------------->
+    <nav class="navbar navbar-toggleable-md navbar-expand-md navbar-expand-lg sticky-top shadow p-8 ">
+        <a class="navbar-brand brand-name font-weight-bold text-success" href="about-us.html"><img src="img/logo.jpg" alt="logo" class="img-fluid">
+
+        </a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+    </button>
+        <a class="navbar-brand font-weight-bold text-success" href="#"></a>
+        <div class="nav-item mr-1">
+            <a class="animate__heartBeat animate__delay-2s nav-link" style="color: green;  border: 3px solid green;" href="investors.html">Invest</a>
+        </div>
+        <div class="nav-item mr-1">
+            <a class="animate__heartBeat animate__delay-4s nav-link" style="color: green; border: 3px solid green;" href="Donate.html">Donate</a>
+        </div>
+        <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavId">
+            <ul class="nav navbar-nav">
+                <!--navbar-nav-->
+                <li class="nav-item mr-3">
+                    <a class="nav-link active" style="color: green;" href="index.html">Home</a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a class="nav-link" style="color: green;" href="about-us.html">About-Us </a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a class="nav-link" style="color: green;" href="services.html">Services</a>
+                </li>
+                <li class="nav-item mr-3">
+                    <a class="nav-link" style="color: green;" href="materials.html">Materials</a>
+                </li>
+                <li class="nav-item mr-1">
+                    <a class="nav-link" style="color: green;" href="Contact-us.html">Contact-Us </a>
+                </li>
+
+                <!-- Example split danger button -->
+                <div class="btn-group">
+                    <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         <span class="sr-only">Toggle Dropdown</span>
+                       Login </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="user-login.html">User
+                        </a>
+                        <a class="dropdown-item" href="admin-login.html">Admin</a>
+
+                    </div>
+                </div>
+                <div class="btn-group mr-1">
+                    <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         <span class="sr-only">Toggle Dropdown</span>
+                        Register</button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="signup-user.html">Individual
+                        </a>
+                        <a class="dropdown-item" href="signup-farmer.html">Farm Owner</a>
+                        <a class="dropdown-item" href="signup-com.html">Community
+                        </a>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </nav>
+
+    <!---------------- form section------------------------>
+    <div class="container" id="registration-form">
+        <div class="row vh-100 align-center">
+            <div class="col-md-9 col-lg-8 m-auto ">
+                <h1 class="login-heading font-weight-bold mb-4" style="color: green;">Welcome back!</h1>
+                <form id="loginForm" method="POST">
+                    <div class="md-form input-group pl-0 mb-4">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                        </div>
+                        <input type="text" class="form-control py-0" placeholder="Username" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="form-label-group mb-4">
+                        <label for="inputEmail">Email address:</label>
+                        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                    </div>
+
+                    <div class="form-label-group mb-4">
+                        <label for="inputPassword">Password:</label>
+                        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                    </div>
+                    <button class="btn btn-success btn-block btn-login text-uppercase font-weight-bold mb-2 rounded-pill" type="submit">Sign in</button>
+                    <div class="text-center">
+                        <a class="small mb-4" href="#">Forgot password?</a>
+                        <p class="small">Don't have an account yet? <a href="register.html" id="reg-btn">sign Up</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!---------------- news letter section Section --------------------->
+    <section id="newsletter" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 mx-auto">
+                    <div class="section-heading text-center">
+                        <h2 class="animate__animated animate__fadeInLeft section-title text-center pb-3 font-weight-bold" style="color: green;">Subscribe to Our Health News</h2>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto " style="width: 97px; height: 2px; background-color: red; ">
+                        <p>
+                            Here about the latest health news and tips to keep yourfamily out of danger
+                        </p>
+                    </div>
+                    <div class=" form-group font-weight-bold ">
+                        <label for="email ">Email:</label>
+                        <input type="text " name="email " id="newsletter-email " class="form-control " placeholder="Enter Email.. " aria-describedby="helpId " required>
+                    </div>
+                    <div class="text-right ">
+                        <button type="button " class="btn btn-outline-success ">Subscribe</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------- Footer1 Section --------------------------------->
+    <footer class="page-footer text-light pt-4 " style="background-color:rgb(5, 58, 5); ">
+        <div class="container text-center text-md-left py-4 ">
+            <div class="row ">
+                <div class="col-md-3 mx-auto mb-4 ">
+                    <div class=" font-weight-bold font-size-50 " style="color: yellow; "><img src="img/logo-2.png" class="img-fluid" alt=""></div>
+                    <p class="mt-2 text-white ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus est, urna egestas viverra pellentesque a aenean nisi gravida. Sed vel at sed leo volutpat elit. </p>
+                </div>
+
+                <div class="col-md-2 mx-auto mb-2 ">
+                    <h6 class="text-uppercase font-weight-bold " style="color: yellow; ">SERVICES</h6>
+                    <hr class="mb-2 mt-0 d-inline-block mx-auto " style="width: 85px; height: 2px; background-color: red; ">
+                    <ul class="list-unstyled ">
+                        <li class="my-2 text-white "><a href="shop.html ">Individuals</a></li>
+                        <li class="my-2 text-white "><a href="shop.html ">Farmers</a></li>
+                        <li class="my-2 text-white "><a href="shop.html ">communities</a></li>
+                        <li class="my-2 text-white "><a href="shop.html ">Estate Owners</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 mx-auto mb-2 ">
+                    <h6 class="text-uppercase font-weight-bold " style="color: yellow; ">QUICK LINKS</h6>
+                    <hr class="mb-2 mt-0 d-inline-block mx-auto " style="width: 85px; height: 2px; background-color:red; ">
+
+                    <ul class="list-unstyled ">
+                        <li class="my-2 text-white "><a href="index.html ">Home</a></li>
+                        <li class="my-2 text-white "><a href="about.html ">About-Us</a></li>
+                        <li class="my-2 text-white "><a href="shop.html ">Services</a></li>
+                        <li class="my-2 text-white "><a href="contact.html ">Contact-Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 mx-auto mb-2 ">
+                    <h6 class="text-uppercase font-weight-bold " style="color: yellow; ">CONTACTS</h6>
+                    <hr class=" mb-2 mt-0 d-inline-block mx-auto " style="width: 85px; height: 2px; background-color:red; ">
+                    <ul class="list-unstyled ">
+                        <li class="my-2 ">
+                            <a href=" ">
+                                <i class="fas fa-home mr-2 text-white "></i>Adejo Str,V/I Lagos.
+                            </a>
+                        </li>
+                        <li class="my-2 ">
+                            <a href=" ">
+                                <i class="fas fa-envelope mr-2 "></i> <i style="color: yellow; ">abc@hotmail.com</i>
+                            </a>
+                        </li>
+                        <li class="my-2 ">
+                            <a href=" ">
+                                <i class="fas fa-phone mr-2 "></i> <i style="color: yellow; ">+2347 023 987 654</i>
+                            </a>
+                        </li>
+                        <li class="my-2 ">
+                            <a href=" ">
+                                <i class="fas fa-tty mr-2 "></i> <i style="color: yellow; "> +01 543 214 098</i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyright text-center py-3 ">
+            <div>
+                <i class="fab fa-linkedin-in " style="color: white "> </i>
+                <i class="fab fa-github " style="color: white "> </i>
+                <i class=" fab fa-twitter " style="color: white "> </i>
+                <i class="fab fa-facebook-f " style="color: white "> </i>
+            </div>
+            <div class="row d-flex justify-content-center ">
+                <div id="copyright " class="text-center text-white ">
+                    <p class="mb-0 " style=" color: yellow; "> By &copy; Techsters Group3</p>
+                    <small class="font-weight-bold ">
+                    Copyright © 2020 Bio-Gas Energy Technology. All Rights Reserved.
+                </small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
