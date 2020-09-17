@@ -14,18 +14,6 @@ body {
 }
 
 
-/*----------------Nav Bar Styles ---------------------*/
-
-.navbar {
-    align-items: center;
-    background-color: #ffffff;
-    border-radius: 20px;
-    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0, 1);
-    padding-left: 80px;
-    padding-right: 45px;
-}
-
-
 /*-----------buttons------------------*/
 
 .btn-outline-success:before {
