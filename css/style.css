@@ -194,7 +194,7 @@ div.masthead .overlay {
 }
 
 .d-block1 {
-    height: 60vh;
+    height: 50vh;
 }
 
 .carousel-caption>h2 {
@@ -214,6 +214,44 @@ div.masthead .overlay {
     font-family: 'Lato', sans-serif !important;
     animation: fadeInLeft;
     animation-duration: 3s;
+}
+
+
+/*---------------carousel-aboutUs section here---------------------*/
+
+.bg-about {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/carousel13.jpg")no-repeat center center;
+    position: relative;
+    background-size: cover;
+    height: 60vh;
+}
+
+.bg-about1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/carousel14.jpg")no-repeat center center;
+    position: relative;
+    background-size: cover;
+    height: 60vh;
+}
+
+.bg-about2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/slider8.jpg")no-repeat center center;
+    position: relative;
+    background-size: cover;
+    height: 60vh;
+}
+
+.bg-about3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/slider9.jpg")no-repeat center center;
+    position: relative;
+    background-size: cover;
+    height: 60vh;
+}
+
+.bg-about4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/slider8.jpg")no-repeat center center;
+    position: relative;
+    background-size: cover;
+    height: 60vh;
 }
 
 
@@ -266,6 +304,13 @@ div.masthead .overlay {
     text-align: center;
 }
 
+.text1 {
+    text-align: center;
+    font-weight: 900px;
+    font-family: 'Anton', sans-serif !important;
+    font-size: 30px;
+}
+
 .img-fluid3 {
     width: 100px;
     height: 100px;
@@ -275,12 +320,12 @@ div.masthead .overlay {
 }
 
 .vmv {
-    background-image: url('../images/vmv.jpg');
+    background-image: url('../img/bg-svg.svg');
     background-position: center;
     background-size: cover;
     color: white;
     width: 100%;
-    height: 50vh;
+    height: 60%;
 }
 
 .support {
@@ -288,6 +333,17 @@ div.masthead .overlay {
     position: relative;
     background-size: cover;
     padding: 4rem 0;
+}
+
+.icon-position {
+    margin-left: 2em;
+    padding-top: .5em;
+}
+
+.promise-position {
+    margin-left: 10em;
+    padding-top: 35px;
+    height: 40%;
 }
 
 
@@ -337,11 +393,14 @@ input {
 #services .card {
     border-radius: 7px;
     box-shadow: 0px 4px 4px rgba(9, 44, 76, 0.13);
+    font-weight: 700px;
+    font-family: 'Anton', sans-serif !important;
 }
 
 .service-text {
     color: green;
     font-family: 'Anton', sans-serif !important;
+    font-size: 20px !important;
 }
 
 
